@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config">
+    <sys_sg_view_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <description/>
+        <name>Contract Services Detail Screen View Config</name>
+        <scratchpad_script/>
+        <sys_class_name>sys_sg_view_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 17:59:50</sys_created_on>
+        <sys_id>4622a1569362021036c4f6027cba109e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Contract Services Detail Screen View Config</sys_name>
+        <sys_package display_value="Contract Master" source="x_762111_contract">378951da9322021036c4f6027cba1058</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Contract Master">378951da9322021036c4f6027cba1058</sys_scope>
+        <sys_update_name>sys_sg_view_config_4622a1569362021036c4f6027cba109e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 17:59:50</sys_updated_on>
+        <table>x_762111_contract_contract_services</table>
+        <template display_value="Template 01">6bb0be5c41a71010f877183fc9b8be0c</template>
+    </sys_sg_view_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=4622a1569362021036c4f6027cba109e"/>
+</record_update>

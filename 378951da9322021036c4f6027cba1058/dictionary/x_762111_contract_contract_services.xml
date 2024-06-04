@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8140ad929362021036c4f6027cba10b2" label="Contract Services" max_length="40" name="x_762111_contract_contract_services" type="collection">
+        <element attributes="encode_utf8=false" label="Branch" max_length="32" name="branch" reference="core_company" type="reference"/>
+        <element attributes="encode_utf8=false" label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Company Currency" max_length="40" name="company_currency" type="choice">
+            <choice/>
+        </element>
+        <element label="Company Currency Amount" max_length="15" name="company_currency_amount" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Contract Parent" max_length="32" name="contract_parent" reference="x_762111_contract_contracts" type="reference"/>
+        <element label="Contract Remaining Amount" max_length="15" name="contract_remaining_amount" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Currency" max_length="40" name="currency" type="choice">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Final Service Contract Approver" max_length="32" name="final_service_contract_approver" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Note" max_length="200" name="note" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase Category" max_length="40" name="purchase_category" type="choice">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="branch"/>
+        </index>
+        <index name="index2">
+            <element name="company"/>
+        </index>
+        <index name="index3">
+            <element name="contract_parent"/>
+        </index>
+        <index name="index4">
+            <element name="requested_by"/>
+        </index>
+        <index name="index5">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

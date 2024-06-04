@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="New Button (Contracts)">f522a1569362021036c4f6027cba1059</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>New</label>
+        <location>top</location>
+        <name>New (Contracts)</name>
+        <order/>
+        <parent>3122a1569362021036c4f6027cba104b</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 17:59:50</sys_created_on>
+        <sys_id>b922a1569362021036c4f6027cba1062</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (Contracts)</sys_name>
+        <sys_package display_value="Contract Master" source="x_762111_contract">378951da9322021036c4f6027cba1058</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Contract Master">378951da9322021036c4f6027cba1058</sys_scope>
+        <sys_update_name>sys_sg_button_instance_b922a1569362021036c4f6027cba1062</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 17:59:50</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=b922a1569362021036c4f6027cba1062"/>
+</record_update>

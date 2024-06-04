@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6a7e9d129362021036c4f6027cba10b7" label="Contracts" max_length="40" name="x_762111_contract_contracts" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Agreement Number" max_length="40" name="agreement_number" type="string"/>
+        <element label="Amount" max_length="15" name="amount" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Branch" max_length="32" name="branch" reference="core_company" type="reference"/>
+        <element attributes="encode_utf8=false" label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Company Currency" max_length="40" name="company_currency" type="choice">
+            <choice/>
+        </element>
+        <element label="Company Currency Amount" max_length="15" name="company_currency_amount" type="decimal"/>
+        <element label="Contract Remaining Amount" max_length="15" name="contract_remaining_amount" type="decimal"/>
+        <element attributes="encode_utf8=false" label="Cost Center" max_length="32" name="cost_center" reference="cmn_cost_center" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cost Center / Job" max_length="40" name="cost_center_job" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Currency" max_length="40" name="currency" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Ending Date" max_length="40" name="ending_date" type="glide_date"/>
+        <element label="Multiple Accounting" max_length="40" name="multiple_accounting" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Note" max_length="200" name="note" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Purchase Category" max_length="40" name="purchase_category" type="choice">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Starting Date" max_length="40" name="starting_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice/>
+        </element>
+        <element attributes="encode_utf8=false" label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="branch"/>
+        </index>
+        <index name="index2">
+            <element name="company"/>
+        </index>
+        <index name="index3">
+            <element name="cost_center"/>
+        </index>
+        <index name="index4">
+            <element name="requested_by"/>
+        </index>
+        <index name="index5">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

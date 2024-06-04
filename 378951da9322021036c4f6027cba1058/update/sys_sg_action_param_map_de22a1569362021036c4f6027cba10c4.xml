@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="New Button (Contract Services)">d222a1569362021036c4f6027cba10c0</button>
+        <item_parameter display_value="Contract Services branch">5622a1569362021036c4f6027cba10bc</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-04 17:59:51</sys_created_on>
+        <sys_id>de22a1569362021036c4f6027cba10c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5622a1569362021036c4f6027cba10bc</sys_name>
+        <sys_package display_value="Contract Master" source="x_762111_contract">378951da9322021036c4f6027cba1058</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Contract Master">378951da9322021036c4f6027cba1058</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_de22a1569362021036c4f6027cba10c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-04 17:59:51</sys_updated_on>
+        <ui_parameter display_value="Branch">d622a1569362021036c4f6027cba10c0</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
